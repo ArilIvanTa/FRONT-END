@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="0" cellspacing="0" cellpading="5">
+        <tr>
+            <td> <table for="id">id :</table></td>
+            <td><input type="number" id="id"></td>
+        </tr>
+        <tr>
+            <td>   <table for="email">email :</table></td>
+            <td> <input type="email" id="email"></td>
+        </tr>
+        <tr>
+            <td colspan="2" > 
+                <input type="radio" id="pria" name="jenis kelamin"><label for="pria">pria</label>
+                <br><input type="radio" id="perempuan" name="jenis kelamin"><label for="pria">perempuan</label></td>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox" id="bernyanyi" name="bernyanyi"><label for="bernyanyi">bernyanyi</label>
+                <input type="checkbox" id="bernyanyi" name="bernyanyi"><label for="bernyanyi">bernyanyi</label>
+                <input type="checkbox" id="bersepeda" name="bersepeda"><label for="bersepeda">bersepeda</label></td>
+        </tr>
+        <tr>
+            <td colspan="2" ><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" > <select>
+                <option>Jawa Tengah</option>
+                <option>Jawa Barat</option>
+                <option>Jawa timur</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="2" >    <button type="button">kirim</button></td>
+        </tr>
+        </table>
+</body>
+</html>
